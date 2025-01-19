@@ -24,7 +24,7 @@ function WorkExperience() {
         />
         
         <WorkCardMagic 
-          title="Full Stack Engineer" 
+          title="Full-Stack Engineer" 
           icon="/questrade-nobg.png"
           company="Questrade"
           description="Developed the roll up options feature for the questrade library using TypeScript. Engineered automated tests using JMeter for improved efficiency. Saved user income by fixing a critical bug in the new front-end in Angular."
