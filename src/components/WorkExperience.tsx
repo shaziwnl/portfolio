@@ -10,7 +10,7 @@ function WorkExperience() {
       <div className="mt-0 flex md:gap-20 gap-16 flex-col md:flex-row">  
 
         <WorkCardMagic
-          title="Software Developer" 
+          title="Software Engineer" 
           icon="/maang.png" 
           company="?" 
           description="Incoming Software Engineer Intern for Summer 2025"
