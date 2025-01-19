@@ -1,101 +1,74 @@
-import Image from "next/image";
+import { DotBackground } from "@/components/DotBackground";
+import { FloatingNav } from "@/components/FloatingNav";
+import { TextGenerateEffect } from "@/components/TextGenerateEffect";
+import { IconBriefcaseFilled, IconHomeFilled } from "@tabler/icons-react";
+import { ImProfile } from "react-icons/im";
+import { IoIosCall } from "react-icons/io";
+import { FaLocationArrow } from "react-icons/fa";
+import { Spotlight } from "@/components/Spotlight";
+import WorkExperience from "@/components/WorkExperience";
+import BorderButtonTwo from "@/components/BorderButtonTwo";
+import Evaluations from "@/components/Evaluations";
+import Projects from "@/components/Projects";
+import Education from "@/components/Education";
+
+
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  const navItems = [
+    {
+      name: "Home",
+      link: "/",
+      icon: <IconHomeFilled className="h-4 w-4 text-white" />,
+    },
+    {
+      name: "Work Experience",
+      link: "/about",
+      icon: <IconBriefcaseFilled className="h-4 w-4 text-white" />,
+    },
+    {
+      name: "Contact",
+      link: "/contact",
+      icon: (
+        <IoIosCall className="h-4 w-4 text-white" />
+      ),
+    },
+    {
+      name: "Resumé",
+      link: "/contact",
+      icon: (
+        <ImProfile className="h-3.5 w-4 text-white" />
+      ),
+    },
+  ];
+
+  return (
+    
+    <div className="pb-52">
+    
+      <FloatingNav navItems={navItems} />
+
+      <Spotlight className='top-28 left-80 h-[60vh] w-[50vw]' fill='#edcfff'/>
+      <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 sm:-top-10 h-screen' fill='white'/>      
+    
+      <Spotlight className='top-28 left-60 h-[60vh] w-[50vw]' fill='#edcfff'/>
+      <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 sm:-top-10 h-screen' fill='white'/>      
+
+      <DotBackground>
+          <TextGenerateEffect header={true} duration={4} filter={false} words="Sharang Goel - Software Developer | Designer | Engineer" />
+
+          <div className="flex flex-col items-center gap-16 md:gap-28 mt-64">
+            <BorderButtonTwo  icon={<FaLocationArrow />} />
+            <WorkExperience />
+            <Evaluations />
+            <Education />
+            <Projects />
+          </div>
+          
+      </DotBackground>   
+      
     </div>
+    
   );
 }
