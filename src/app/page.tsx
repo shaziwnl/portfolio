@@ -7,10 +7,11 @@ import { IoIosCall } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa";
 import { Spotlight } from "@/components/Spotlight";
 import WorkExperience from "@/components/WorkExperience";
-import BorderButtonTwo from "@/components/BorderButtonTwo";
+import BorderButtonTwo from "@/components/BorderButtonWorkExp";
 import Evaluations from "@/components/Evaluations";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
+import BorderButtonResume from "@/components/BorderButtonResume";
 
 
 
@@ -59,7 +60,7 @@ export default function Home() {
           <TextGenerateEffect header={true} duration={4} filter={false} words="Sharang Goel - Software Developer | Designer | Engineer" />
 
           <div className="flex flex-col items-center gap-16 md:gap-28 mt-64">
-            <BorderButtonTwo  icon={<FaLocationArrow />} />
+            <BorderButtonResume icon={<FaLocationArrow />} />
             <WorkExperience />
             <Evaluations />
             <Education />

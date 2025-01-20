@@ -1,6 +1,8 @@
 import Link from "next/link"
 import WorkCardMagic from "./WorkCardMagic"
 import { AiFillHome } from "react-icons/ai"
+import { FaLocationArrow } from "react-icons/fa"
+import BorderButtonWorkExp from "./BorderButtonWorkExp"
 
 function WorkExperience() {
   return (
@@ -38,6 +40,11 @@ function WorkExperience() {
         />
 
       </div>
+
+      <Link className="mb-5" href="/work-experience">
+        <BorderButtonWorkExp icon={<FaLocationArrow />} />
+      </Link>
+      
     </>
   )
 }
