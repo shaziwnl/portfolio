@@ -8,7 +8,7 @@ function BorderButtonTwo({icon}:
 
 
   return (    
-    <a href='https://drive.google.com/file/d/1JOsRpcEEZKhQvK71VwlN-Ka9neK1S4Bt/view?usp=sharing' target='blank'>
+    <a href='https://drive.google.com/file/d/1_DzdwuVMv9-rbaay1a7YOxI0DfwqtYz5/view?usp=drive_link' target='blank'>
         <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
