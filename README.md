@@ -17,13 +17,16 @@
 </a>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shaziwnl&label=Profile%20views&color=0e75b6&style=flat" alt="shaziwnl" /> </p>
+
+<!---
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shaziwnl&label=Profile%20views&color=0e75b6&style=flat" alt="shaziwnl" /> </p> 
+-->
 
 
 ------
 <h3 align="left">Activity:</h3>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shaziwnl&bg_color=100f0f&color=4c5e9e&line=4c569e&point=403e41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Sharang's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shaziwnl&bg_color=100f0f&color=4c5e9e&line=4c569e&point=403e41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
   <a href="https://github.com/shaziwnl">
