@@ -34,6 +34,7 @@
 <p align="center">
   <a href="https://github.com/shaziwnl">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaziwnl&&theme=tokyonight" alt="shaziwnl" />
+    [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
   </a>
 </p>
 
