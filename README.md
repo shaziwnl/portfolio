@@ -31,9 +31,6 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaziwnl&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shaziwnl"/>
   </a>
 </div>
-<p align="center">
-</p>
-[![GitHub Streak](https://streak-stats.demolab.com?user=shaziwnl)](https://git.io/streak-stats)
 
 ------
 <h3 align="left">Languages and Tools:</h3>
