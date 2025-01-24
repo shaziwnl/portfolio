@@ -32,10 +32,8 @@
   </a>
 </div>
 <p align="center">
-  <a href="https://github.com/shaziwnl">
-    [GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
-  </a>
 </p>
+[![GitHub Streak](https://streak-stats.demolab.com?user=shaziwnl)](https://git.io/streak-stats)
 
 ------
 <h3 align="left">Languages and Tools:</h3>
