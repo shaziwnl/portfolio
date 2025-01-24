@@ -13,7 +13,7 @@
     <i align="center" class="devicon-linkedin-plain colored" alt="shaziwnl" height="40" width="60" ></i>
   </a>
   <a href="https://www.linkedin.com/in/sharang-goel/" target="blank">
-    <i align="center" height="40" width="60" alt="Sharang Goel" class="fa-brands fa-linkedin"></i>
+    <img height="40" src="https://skillicons.dev/icons?i=linkedin"/>
   </a>
   <i align="center" class="devicon-linkedin-plain colored" alt="shaziwnl" height="40" width="60" ></i>
 </p>
