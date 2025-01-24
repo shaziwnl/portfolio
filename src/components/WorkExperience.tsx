@@ -1,7 +1,9 @@
+"use client";
+
 import Link from "next/link"
 import WorkCardMagic from "./WorkCardMagic"
-import { AiFillHome } from "react-icons/ai"
 import { FaLocationArrow } from "react-icons/fa"
+import { motion } from "framer-motion"
 import BorderButtonWorkExp from "./BorderButtonWorkExp"
 
 function WorkExperience() {
@@ -9,7 +11,7 @@ function WorkExperience() {
     <>
       <h1 id="work-experience" className="text-xl font-semibold md:text-5xl text-white">Work Experience</h1>
       
-      <div className="mt-0 flex md:gap-20 gap-16 flex-col md:flex-row">  
+      <motion.div animate={{ y: [100, 0], opacity: [0, 100] }} transition={{ ease: ["easeIn"], delay: 0.25, duration: 1 }} className="mt-0 flex md:gap-20 gap-16 flex-col md:flex-row">  
 
         <WorkCardMagic
           title="Software Engineer" 
@@ -39,7 +41,7 @@ function WorkExperience() {
           description="Accelerated the report generation of product reviews for Walmart Canada using Scikit-Learn. Enhanced the TCS resume screening accuracy using PyPDF2 and the OpenAI API."
         />
 
-      </div>
+      </motion.div>
 
       <Link className="mb-5" href="/work-experience">
         <BorderButtonWorkExp icon={<FaLocationArrow />} />
