@@ -59,8 +59,8 @@
         <td><img height="40" src="https://skillicons.dev/icons?i=aws,vercel,netlify"/></td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Automated test:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=selenium,jest,pytest,phpunit"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Testing:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=selenium,jest"/></td>
     </tr>
 <!--     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Version Control:</td>
