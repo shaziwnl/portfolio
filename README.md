@@ -13,11 +13,11 @@
 <p align="left">
 <a href="https://twitter.com/RenatoResabala" target="blank"><i align="center" class="devicon-twitter-original" alt="Renato_Resabala" height="40" width="60" ></i>
 </a>
-<a href="https://www.linkedin.com/in/renato-r-611795133/" target="blank"><i align="center" class="devicon-linkedin-plain colored" alt="Renato_Resabala" height="40" width="60" ></i>
+<a href="https://www.linkedin.com/in/renato-r-611795133/" target="blank"><i align="center" class="devicon-linkedin-plain colored" alt="shaziwnl" height="40" width="60" ></i>
 </a>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=RResabala2015&label=Profile%20views&color=0e75b6&style=flat" alt="RResabala2015" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shaziwnl&label=Profile%20views&color=0e75b6&style=flat" alt="shaziwnl" /> </p>
 
 
 ------
@@ -26,14 +26,14 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shaziwnl&bg_color=100f0f&color=4c5e9e&line=4c569e&point=403e41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
-  <a href="https://github.com/RResabala2015">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=RResabala2015&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="RResabala2015"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RResabala2015&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="RResabala2015"/>
+  <a href="https://github.com/shaziwnl">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=shaziwnl&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shaziwnl"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaziwnl&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shaziwnl"/>
   </a>
 </div>
 <p align="center">
-  <a href="https://github.com/RResabala2015">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=RResabala2015&&theme=tokyonight" alt="RResabala2015" />
+  <a href="https://github.com/shaziwnl">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaziwnl&&theme=tokyonight" alt="shaziwnl" />
   </a>
 </p>
 
