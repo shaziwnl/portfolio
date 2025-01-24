@@ -2,14 +2,10 @@
 
 ### Hello 🌎, I'm Sharang Goel
 
-
-
   - 🎓 Education: Currently a student at UWaterloo, studying Computer Science (Honours with Co-op).
   - 💼 Work: Currently interning at TD Bank as a Software Developer.
   - 🌱 Other: Currently expanding my knowledge on AWS
 
-
-<i class="fa-brands fa-linkedin"></i>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
