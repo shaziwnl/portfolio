@@ -51,8 +51,8 @@
         <td><img height="40" src="https://skillicons.dev/icons?i=nodejs,deno,flask,express"/></td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Database:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,elasticsearch"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Databases:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,elasticsearch"/></td>
     </tr>
     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">DevOps:</td>
@@ -60,7 +60,7 @@
     </tr>
     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Testing:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=selenium,jest"/></td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=selenium,jest,postman"/></td>
     </tr>
 <!--     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Version Control:</td>
