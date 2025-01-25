@@ -12,7 +12,7 @@
 <!--   <a href="https://twitter.com/RenatoResabala" target="blank">
     <img height="40" src="https://skillicons.dev/icons?i=linkedin"/>
   </a> -->
-  <a href="https://www.linkedin.com/in/sharang-goel/" target="blank">
+  <a href="https://www.linkedin.com/in/sharang-goel/" target="_blank">
     <img height="40" src="https://skillicons.dev/icons?i=linkedin"/>
   </a>
 </p>
