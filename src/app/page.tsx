@@ -12,6 +12,7 @@ import Evaluations from "@/components/Evaluations";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 import BorderButtonResume from "@/components/BorderButtonResume";
+import ContactMe from "@/components/ContactMe";
 
 
 
@@ -65,7 +66,10 @@ export default function Home() {
             <Evaluations />
             <Education />
             <Projects />
+            <ContactMe />
           </div>
+
+          
           
       </DotBackground>   
       

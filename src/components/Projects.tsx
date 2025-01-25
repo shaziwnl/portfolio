@@ -119,12 +119,6 @@ function Projects() {
 
             </div>
 
-            {/* <div className='flex flex-col gap-5 pb-20'>
-              <FutureProject img='/awscp.png' left description='I plan to complete the AWS CLF-C02 certification in early January'/>
-              <FutureProject img='/threejs-trophy-nobg.png' right description="I have joined the Three.js Journey to deepen my understanding of 3D web design"/>
-              <FutureProject img='/mongodbad.png' left description='Being a huge fan of MongoDB, I hope to complete their developer associate certificate this winter'/>
-            </div> */}
-
         </div>
     </>
   )
