@@ -15,8 +15,8 @@ function WorkExperience() {
 
         <WorkCardMagic
           title="Software Engineer" 
-          icon="/maang.png" 
-          company="?" 
+          icon="/meta.png" 
+          company="Meta" 
           description="Incoming Software Engineer Intern for Summer 2025"
         />
 

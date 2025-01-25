@@ -20,7 +20,7 @@ function WorkCardMagic({icon, title, company, description}: {
         {company === "Tata Consultancy Services" && <img src={icon} alt='logo of company' className='sm:h-14 h-11 w-20 mb-8'></img>}
         {company === "Questrade" && <img src={icon} alt='logo of company' className='h-20 w-20'></img>}
         {company === "TD Bank" && <img src={icon} alt='logo of company' className='h-16 w-16 mb-5'></img>}
-        {company === "?" && <img src={icon} alt='logo of company' className='h-14 w-52 mb-5'></img>}
+        {company === "Meta" && <img src={icon} alt='logo of company' className='h-12 mb-5'></img>}
 
         <h1 className='md:text-2xl font-semibold text-base'>{company}</h1>
         <h1 className='md:text-2xl font-normal text-sm'>{title}</h1>
