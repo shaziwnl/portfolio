@@ -31,6 +31,12 @@ function Projects() {
         setMultiplier(0.5); // Smaller size for smaller screens
       } else if (screenWidth < 768) {
         setMultiplier(0.5); // Larger gradient width for larger screens
+      } else if (screenWidth < 1024) {
+        setMultiplier(0.75);
+      } else if (screenWidth < 1280) {
+        setMultiplier(0.75);
+      } else if (screenWidth < 1920) {
+        setMultiplier(0.75);
       } else {
         setMultiplier(1);
       }
@@ -61,33 +67,51 @@ function Projects() {
             <div className='h-[60vh] w-[50vw] ml-2 flex flex-col justify-center'>
 
               <div className='flex md:h-[60vh] w-[100vw] md:w-[50vw] md:justify-between gap-10 flex-wrap'>
-                <Project title="Valorant Lineup Companion" technologies={
-                  [<SiTypescript size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>, 
-                   <SiExpo size={30 * multiplier}/>, 
-                   <SiSqlite size={30 * multiplier}/>, <SiGoogleadmob size={28 * multiplier} />, 
-                  ]}
-                  description=" The most up-to-date Valorant lineup app for all maps and agents Available on both IOS and Android (In development)"
-                  link="https://github.com/shaziwnl/Valorant-Lineup-Companion"
-                />
 
-                <Project title='ReText Chrome Extension' technologies={
-                  [<SiJavascript size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>, 
-                   <FaPython size={30 * multiplier}/>, <SiFlask size={30 * multiplier}/>,
-                   <SiChromewebstore size={30 * multiplier}/>,
-                  ]}
-                  description='Chrome extension that helps users in their writing, texting and reading needs'
-                  link='https://chromewebstore.google.com/detail/retext/odiaofbnmdhgdlibchfcageipnldeceh'
-                />
-                <Project title='Atlas Online Game' technologies={
-                  [<SiMongodb size={30 * multiplier}/>, <SiExpress size={30 * multiplier}/>,
-                    <FaNodeJs size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>,
-                    <TbBrandSocketIo size={35 * multiplier}/>
-                  ]}
-                  description='An online multiplayer geography game based on the popular Indian childhood game - Atlas'
-                  link="https://atlas-game.netlify.app/"
-                />
+                <div className='flex-wrap sm:flex-nowrap flex gap-10'>
+                  <Project title="Valorant Lineup Companion" technologies={
+                    [<SiTypescript size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>, 
+                    <SiExpo size={30 * multiplier}/>, 
+                    <SiSqlite size={30 * multiplier}/>, <SiGoogleadmob size={28 * multiplier} />, 
+                    ]}
+                    description=" The most up-to-date Valorant lineup app for all maps and agents Available on both IOS and Android (In development)"
+                    link="https://github.com/shaziwnl/Valorant-Lineup-Companion"
+                  />
 
-                <div className='md:hidden sm:flex-row sm:justify-center sm:gap-10 sm:items-center sm:ml-8 flex flex-col justify-around ml-auto mr-auto'>
+                  <Project title='ReText Chrome Extension' technologies={
+                    [<SiJavascript size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>, 
+                    <FaPython size={30 * multiplier}/>, <SiFlask size={30 * multiplier}/>,
+                    <SiChromewebstore size={30 * multiplier}/>,
+                    ]}
+                    description='Chrome extension that helps users in their writing, texting and reading needs'
+                    link='https://chromewebstore.google.com/detail/retext/odiaofbnmdhgdlibchfcageipnldeceh'
+                  />
+                  <Project title='Atlas Online Game' technologies={
+                    [<SiMongodb size={30 * multiplier}/>, <SiExpress size={30 * multiplier}/>,
+                      <FaNodeJs size={30 * multiplier}/>, <FaReact size={35 * multiplier}/>,
+                      <TbBrandSocketIo size={35 * multiplier}/>
+                    ]}
+                    description='An online multiplayer geography game based on the popular Indian childhood game - Atlas'
+                    link="https://atlas-game.netlify.app/"
+                  />
+
+                  <div className='sm:hidden flex flex-col items-center ml-auto mr-auto justify-around'>
+                    <a href='https://github.com/shaziwnl/' target='_blank'>
+                      <FaGithub size={100 * multiplier} color='white' className='hover:scale-110 hover:cursor-pointer'/>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/@shaz101/shorts" target='_blank'>
+                      <FaYoutube size={100 * multiplier} color='white' className='hover:scale-110 hover:cursor-pointer'/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sharang-goel/" target='_blank'>
+                      <FaLinkedin size={100 * multiplier} color='white' className='hover:scale-110 hover:cursor-pointer'/>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div className='hidden sm:flex sm:w-full sm:justify-around'>
                   <a href='https://github.com/shaziwnl/' target='_blank'>
                     <FaGithub size={100 * multiplier} color='white' className='hover:scale-110 hover:cursor-pointer'/>
                   </a>
@@ -100,21 +124,9 @@ function Projects() {
                     <FaLinkedin size={100 * multiplier} color='white' className='hover:scale-110 hover:cursor-pointer'/>
                   </a>
                 </div>
-              </div>
+              
 
-              <div className='hidden md:flex flex-row justify-around mb-10'>
-                  <a href='https://github.com/shaziwnl/' target='_blank'>
-                    <FaGithub size={100} color='white' className='hover:scale-110 hover:cursor-pointer'/>
-                  </a>
-                  
-                  <a href="https://www.youtube.com/@shaz101/shorts" target='_blank'>
-                    <FaYoutube size={100} color='white' className='hover:scale-110 hover:cursor-pointer'/>
-                  </a>
 
-                  <a href="https://www.linkedin.com/in/sharang-goel/" target='_blank'>
-                    <FaLinkedin size={100} color='white' className='hover:scale-110 hover:cursor-pointer'/>
-                  </a>
-                  
               </div>
 
             </div>
