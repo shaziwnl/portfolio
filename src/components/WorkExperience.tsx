@@ -24,7 +24,7 @@ function WorkExperience() {
           title="Software Developer" 
           icon="/td-lab-nobg.png" 
           company="TD Bank" 
-          description="Currently working as a software developer at TD's Innovation team"
+          description="Saved users 20+ minutes per banking session by integrating the Plaid API. Designed and implemented the software architecture for a new application using the OpenAI API with PyMongo and LangChain"
         />
         
         <WorkCardMagic 

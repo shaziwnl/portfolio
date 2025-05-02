@@ -53,15 +53,22 @@ function Evaluations() {
             <p className='text-xs md:text-2xl w-[75vw] md:w-[65vw] text-white'>
               He is very proactive and reaches out and follows up to ensure tasks gets done. 
               Is a curious learner and has learnt a lot on his own and developed innovative solutions 
-              for the problems given to him - <span className='font-semibold'>Abhay Srivastava (<span className='text-[#edcfff]'>TCS</span>)</span>
+              for the problems given to him. - <span className='font-semibold'>Abhay Srivastava (<span className='text-[#edcfff]'>TCS</span>)</span>
             </p>
           </div>
-
         </div>
       </Marquee>
 
-
-      
+      <Marquee className='overflow-hidden mt-14' pauseOnHover speed={speed} direction='left' gradient gradientWidth={gradientWidth} gradientColor='#01020f'>
+        <div className='flex gap-28 w-[49vw] text-center justify-center items-center'>
+          <div className=''>
+            <p className='text-xs md:text-2xl w-[75vw] md:w-[65vw] text-white'>
+            Sharang surpassed expectations with his initiative, technical skills, and teamwork. He made key contributions to projects like the ASL Virtual Interpreter and Money Management, 
+            integrating the Plaid API. His work on TTS and STT models for other projects showed his interest in complex technologies. - <span className='font-semibold'>Isaiah Erb (<span className='text-[#edcfff]'>TD Bank</span>)</span>
+            </p>
+          </div>
+        </div>
+      </Marquee>      
 
     </div>
     

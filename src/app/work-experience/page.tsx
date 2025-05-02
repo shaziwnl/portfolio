@@ -7,7 +7,9 @@ const resumeItems = {
         "Incoming Software Engineer Intern at 메타 for Summer 2025",
     ],
     TD: [
-        "Currently working as a software developer at TD's Innovation Lab",
+        "Saved users 20+ minutes per banking session by integrating the Plaid API into an open banking application and delivering real-time multi-account aggregation. Built using Firebase with TypeScript",
+        "Spearheaded the development of an automated technical interview tool using NextJS and Firebase, completely automating the manual interview process within the team, saving $100 per interview",
+        "Designed and implemented the software architecture from the ground up for a new application, that provides users with personalization, guidance and actions. Implemented using the OpenAI API with PyMongo and LangChain",
     ],
     Questrade: [
         "Developed the “Roll Up Options” feature for the Questrade web application that enables users to extend the expirations of their existing options. Implemented business logic in TypeScript for a new order-entry library",
@@ -58,10 +60,10 @@ export default function Experience() {
         
 
         {/* Meta Section */}
-        <WorkExperienceResumeItem title="Software Engineer" company="메타" location="Seattle, WA" date="Summer 2025" resumeItems={resumeItems.Meta}/>
+        <WorkExperienceResumeItem title="Software Engineer" company="메타" location="Seattle, WA" date="May 2025 - Present" resumeItems={resumeItems.Meta}/>
 
         {/* TD Section */}
-        <WorkExperienceResumeItem title="Software Developer" company="TD Bank" location="Waterloo, ON" date="Jan 2025 – Present" resumeItems={resumeItems.TD}/>
+        <WorkExperienceResumeItem title="Software Developer" company="TD Bank" location="Waterloo, ON" date="Jan 2025 – Apr 2025" resumeItems={resumeItems.TD}/>
   
         {/* Questrade Section */}
         <WorkExperienceResumeItem title="Full Stack Engineer" company="Questrade" location="Toronto, ON" date="Jan 2024 – Apr 2024" resumeItems={resumeItems.Questrade}/>

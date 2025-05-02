@@ -8,7 +8,7 @@ function WorkCardMagic({icon, title, company, description}: {
   description: string,
 }) {
 
-  const highlightWords = ["Developed", "Engineered", "Saved", "Incoming", "Enhanced", "Accelerated", "Currently"];
+  const highlightWords = ["Developed", "Engineered", "Saved", "Incoming", "Enhanced", "Accelerated", "Currently", "Designed"];
   const highlightColor = "text-[#edcfff]"; // Tailwind's arbitrary color syntax
 
   return (
