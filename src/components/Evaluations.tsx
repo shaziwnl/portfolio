@@ -34,6 +34,15 @@ function Evaluations() {
     <div className='flex items-center text-center flex-col'>
       <h1 className="text-xl font-semibold md:text-5xl text-white">Employer Evaluations</h1> 
       
+      <Marquee className='overflow-hidden mt-16' pauseOnHover speed={speed} direction='left' gradient gradientWidth={gradientWidth} gradientColor='#01020f'>
+        <div className='flex gap-28 w-[49vw] text-center justify-center items-center'>
+          <div className=''>
+            <p className='text-xs md:text-2xl w-[85vw] md:w-[90vw] text-white'>
+            Sharang has done an incredible job during his time at Meta and has contributed significantly to the team's objectives. He has received stellar commendations from his peers as well as from other members of the team. We appreciate his work in Meta - <span className='font-semibold'>Manager (<span className='text-[#edcfff]'>Meta</span>)</span>
+            </p>
+          </div>
+        </div>
+      </Marquee>
 
       <Marquee className='overflow-hidden mt-16' pauseOnHover speed={speed} direction='left' gradient gradientWidth={gradientWidth} gradientColor='#01020f'>
         <div className='flex gap-28 w-[49vw] text-center justify-center items-center'>

@@ -3,8 +3,14 @@ import Link from "next/link";
 import { AiFillHome } from "react-icons/ai";
 
 const resumeItems = {
+    Stripe: [
+        "Incoming Software Engineer Intern for Winter 2026",
+    ],
     Meta: [
-        "Incoming Software Engineer Intern at 메타 for Summer 2025",
+        "Revamped the permissions system for an internal tool, reducing permission modification time from 19 minutes to 30 seconds by making the entire system configurable. Implemented using C++ and React with TypeScript",
+        "Migrated the existing privacy policy rules for an internal tool to a Meta-wide framework, making the system fully modular, which previously relied on hard-coded rules",
+        "Spearheaded the development of a permissions checker UI from design to implementation, reducing permission debugging time by 30 minutes. Implemented the design using React with Relay GraphQL data fetching",
+        "Delivered quality-of-life improvements for users and admins by adding contextual hovercards to guide user actions and implementing deep-linking for admin settings, enabling direct navigation to relevant configuration tabs",
     ],
     TD: [
         "Saved users 20+ minutes per banking session by integrating the Plaid API into an open banking application and delivering real-time multi-account aggregation. Built using Firebase with TypeScript",
@@ -57,10 +63,11 @@ export default function Experience() {
           </Link>
         </div> */}
 
-        
+        {/* Stripe Section */}
+        <WorkExperienceResumeItem title="Software Engineer" company="Stripe" location="Toronto, ON" date="Jan 2026 - Apr 2026" resumeItems={resumeItems.Stripe}/>
 
         {/* Meta Section */}
-        <WorkExperienceResumeItem title="Software Engineer" company="메타" location="Seattle, WA" date="May 2025 - Present" resumeItems={resumeItems.Meta}/>
+        <WorkExperienceResumeItem title="Software Engineer" company="Meta" location="Seattle, WA" date="May 2025 - Aug 2025" resumeItems={resumeItems.Meta}/>
 
         {/* TD Section */}
         <WorkExperienceResumeItem title="Software Developer" company="TD Bank" location="Waterloo, ON" date="Jan 2025 – Apr 2025" resumeItems={resumeItems.TD}/>

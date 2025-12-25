@@ -1,4 +1,5 @@
 import React from 'react'
+import { googleDriveResumeUrl } from '@/constants/urls'
 
 function BorderButtonResume({icon}: 
     {
@@ -8,7 +9,7 @@ function BorderButtonResume({icon}:
 
 
   return (    
-    <a href='https://drive.google.com/file/d/1_DzdwuVMv9-rbaay1a7YOxI0DfwqtYz5/view?usp=sharing' target='blank'>
+    <a href={googleDriveResumeUrl} target='_blank' rel="noopener noreferrer">
         <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">

@@ -63,12 +63,6 @@ function EmailForm() {
     return (
         <div className="text-center flex flex-col gap-5">
 
-            {/* <div className="flex justify-between">
-                <Link href="/" className="mr-10">
-                    <AiFillHome className="text-2xl md:text-4xl text-white" />
-                </Link>
-                <h1 className="text-base text-gray-300 md:text-3xl font-medium scale-100">SEND ME A <span className='text-[#edcfff]'>MESSAGE</span></h1>
-            </div>  */}
 
             <div className="flex items-center justify-between">
                 
@@ -117,7 +111,6 @@ function EmailForm() {
                 
                 
             </form>
-            <h1 className="text-gray-300 text-base md:text-xl font-semibold scale-100">CALL ME AT&nbsp;<span className='text-[#edcfff]'>+1</span> 437-422-3042</h1>
         </div>
     )
 }

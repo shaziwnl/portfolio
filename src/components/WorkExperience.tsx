@@ -14,31 +14,31 @@ function WorkExperience() {
       <motion.div animate={{ y: [100, 0], opacity: [0, 100] }} transition={{ ease: ["easeIn"], delay: 0.25, duration: 1 }} className="mt-0 flex md:gap-20 gap-16 flex-col md:flex-row">  
 
         <WorkCardMagic
-          title="Software Engineer" 
-          icon="/meta.png" 
-          company="Meta" 
-          description="Incoming Software Engineer Intern for Summer 2025"
+          title="SWE Intern" 
+          icon="/stripe.png" 
+          company="Stripe" 
+          description="Incoming Software Engineer Intern for Winter 2026"
         />
 
         <WorkCardMagic
-          title="Software Developer" 
+          title="SWE Intern" 
+          icon="/meta.png" 
+          company="Meta" 
+          description="Revamped the permissions system for an internal tool, reducing permission modification time from 30 minutes to 30 seconds"
+        />
+
+        <WorkCardMagic
+          title="Software Dev Intern" 
           icon="/td-lab-nobg.png" 
           company="TD Bank" 
-          description="Saved users 20+ minutes per banking session by integrating the Plaid API. Designed and implemented the software architecture for a new application using the OpenAI API with PyMongo and LangChain"
+          description="Saved users 20+ minutes per banking session by integrating the Plaid API for an open banking solution"
         />
         
         <WorkCardMagic 
-          title="Full-Stack Engineer" 
+          title="Full-Stack Eng Intern" 
           icon="/questrade-nobg.png"
           company="Questrade"
-          description="Developed the roll up options feature for the questrade library using TypeScript. Engineered automated tests using JMeter for improved efficiency. Saved user income by fixing a critical bug in the new front-end in Angular."
-        />
-        
-        <WorkCardMagic 
-          title="Software Developer" 
-          icon="/tcs-resized.png" 
-          company="Tata Consultancy Services" 
-          description="Accelerated the report generation of product reviews for Walmart Canada using Scikit-Learn. Enhanced the TCS resume screening accuracy using PyPDF2 and the OpenAI API."
+          description="Developed the roll up options feature for the questrade library using TypeScript. Engineered automated tests using JMeter for improved efficiency"
         />
 
       </motion.div>

@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { googleDriveResumeUrl } from "@/constants/urls";
 
 export const FloatingNav = ({
   navItems,
@@ -75,7 +76,7 @@ export const FloatingNav = ({
           navItem.name === "Resumé" ? 
           <a
             key={navItem.name}
-            href="https://drive.google.com/file/d/1_DzdwuVMv9-rbaay1a7YOxI0DfwqtYz5/view?usp=sharing"
+            href={googleDriveResumeUrl}
             target="_blank"
             className={cn(
               "relative text-neutral-50 items-center flex space-x-1 hover:text-[#edcfff]"
